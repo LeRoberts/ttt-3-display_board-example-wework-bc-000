@@ -1,1 +1,11 @@
-# Define a method display_board that prints a 3x3 Tic Tac Toe Board
+board = ["o ","o ","o ","o ","X","o ","o ","o ","o "]
+
+def display_board(board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   | #{board[4]}  |   "
+  puts "-----------"
+  puts "   |   |   "
+end 
+
+
